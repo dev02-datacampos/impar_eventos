@@ -1,3 +1,19 @@
+html, body {
+    position: absolute;
+    margin-left: 70px;
+    overflow-x: hidden;
+    margin:0px !important;
+    padding: 0px !important;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
 h4 {
     font-family: 'Fira Sans', sans-serif;
     bottom: 25px;
@@ -11,8 +27,8 @@ h4 {
     font-size: 30px;
     font-family: 'Fira Sans', sans-serif;
     position: relative;
-    bottom: 175px;
-    left: 45px;
+    bottom: 1050px;
+    left: 110px;
     color: white;
 }
 
@@ -20,29 +36,26 @@ h4 {
     font-size: 30px;
     font-family: 'Fira Sans', sans-serif;
     position: relative;
-    bottom: 965px;
-    left: 45px;
+    bottom: 980px;
+    left: 50px;
     color: white;
 }
 
-.img_header {
+#impar_header {
+    position: relative;
+    bottom: 438px;
+    left: 60px;
+}
+
+.png_header {
+    position: relative;
     background-color: white;
-    margin-left: 41px;
+    margin-left: 110px;
 }
 
 #body_img {
     width: 100vw;
 } 
-
-html, body {
-    position: absolute;
-    margin-left: 70px;
-    overflow-x: hidden;
-    margin:0px !important;
-    padding: 0px !important;
-    margin: 0;
-    padding: 0;
-}
 
 .hamburger{
     width: 2rem;
@@ -91,13 +104,14 @@ html, body {
 
 .sidebar{
     width: 20rem;
-    height: 100vh;
+    height: 45vh;
     background: red;
     box-shadow: 10px 5px 15px 10px rgba(0, 0, 0, 0.582);
     position: fixed;
     top: 0;
     right: -20rem;
     transition: all .8s;
+    z-index: 2;
 }
 
 .show-menu .sidebar{
@@ -119,7 +133,7 @@ html, body {
 
 .menu-link{
     font-family:sans-serif;
-    font-size: 30px;
+    font-size: 13px;
     color: rgb(245, 245, 245);
     transition: color .7s;
     text-decoration: none;
@@ -153,7 +167,7 @@ html, body {
 
 #contato {
     font-family: 'Fira Sans', sans-serif;
-    top: 750px;
+    top: 800px;
     margin-left: 200px;
     position: relative;
     font-size: 35px;
@@ -162,7 +176,7 @@ html, body {
 
 #numero {
     font-family: 'Fira Sans', sans-serif;
-    top: 715px;
+    top: 775px;
     margin-left: 460px;
     position: relative;
     font-size: 23px;
@@ -174,4 +188,88 @@ html, body {
     width: 400px;
     top: 400px;
     right: 475px;
+}
+
+.rodape {
+    position: relative;
+    bottom: 160px;
+    width: 100%;
+}
+
+.imagem {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+#videoShell {
+    position: absolute;
+    top: -115px;
+    left: 45px;
+    width: 15%;
+    height: 90%;
+    z-index: 2;
+}
+
+#nossos_projetos {
+    color: white;
+    position: relative;
+    bottom: 810px;
+    left: 400px;
+    font-size: 30px;
+
+}
+
+#libertadores {
+    position: absolute;
+    top: -115px;
+    left: 600px;
+    width: 15%;
+    height: 90%;
+    z-index: 2;
+}
+
+#treinamento {
+    position: absolute;
+    top: -115px;
+    left: 1100px;
+    width: 15%;
+    height: 90%;
+    z-index: 2;
+}
+
+.meu-video {
+    z-index: 1;
+}
+
+.icon {
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    font-size: 30px;
+    background-color: #01e675;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 3px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 100;
+    box-shadow: 2px 2px 2px #c0bdbd;
+  }
+  
+.icon .fab{
+    padding-top: 9px;
+  }
+  
+.icon:hover{
+    background-color: #fff;
+    color: #029e3b;
+    font-weight: 900;
+    box-shadow: 2px 2px 20px #5fe690;
+  }
+
+#linkOculto {
+    display: none;
 }
