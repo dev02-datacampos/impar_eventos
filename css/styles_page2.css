@@ -1,0 +1,20 @@
+h4 {
+    font-family: 'Fira Sans', sans-serif;
+    bottom: 25px;
+    left: 60px;
+    position: relative;
+    font-size: 30px;
+    color: red;
+}
+
+#impar_header {
+    position: relative;
+    bottom: 570px;
+    left: 165px;
+}
+
+.png_header {
+    position: relative;
+    background-color: white;
+    margin-left: 110px;
+}
