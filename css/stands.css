@@ -27,7 +27,7 @@ h2 {
 }
 
 #impar_header {
-    bottom: 1191px;
+    bottom: 1715px;
     position: relative;
     left: 170px;
 }
@@ -73,8 +73,11 @@ hr {
 }
 
 #solicite {
-    left: 345px;
-    bottom: 95px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 16px;
+    left: 300px;
+    bottom: 290px;
 }
 
 .hamburger{

@@ -201,3 +201,11 @@ hr {
     font-weight: 900;
     box-shadow: 2px 2px 20px #5fe690;
   }
+
+  #solicite {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 16px;
+    left: 300px;
+    bottom: 290px;
+}
