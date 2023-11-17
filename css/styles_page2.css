@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
 html, body {
     position: absolute;
     margin-left: 70px;
@@ -19,7 +26,7 @@ h4 {
 
 #impar_header {
     position: relative;
-    bottom: 2361px;
+    bottom: 3062px;
     left: 170px;
 }
 
@@ -69,7 +76,7 @@ h4 {
     padding: 1px;
     border-radius: 10px;
     background-color:red;
-    box-shadow: 0.1rem 0.1rem 3px rgba(0, 0, 0, 0.788);
+    box-shadow: 0.1rem 0.1rem 2px rgba(0, 0, 0, 0.788);
     transition: transform .7s;
 }
 
@@ -155,7 +162,7 @@ hr {
 
 .clientes {
     font-family: 'Fira Sans', sans-serif;
-    bottom: 25px;
+    bottom: 0px;
     left: 113px;
     position: relative;
     font-size: 35px;
@@ -163,5 +170,13 @@ hr {
 }
 
 #logo {
-    width: 300px;
+    margin-top: -200px;
+    margin-left: 115px;
+    display: inline-flex;
+    width: 200px;
+    z-index: 2;
+}
+
+#red_logo {
+    z-index: 0;
 }
