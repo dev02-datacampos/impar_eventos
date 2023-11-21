@@ -1,0 +1,242 @@
+html, body {
+    position: absolute;
+    margin-left: 70px;
+    overflow-x: hidden;
+    margin:0px !important;
+    padding: 0px !important;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    font-family: 'Fira Sans', sans-serif;
+    bottom: 25px;
+    left: 60px;
+    position: relative;
+    font-size: 30px;
+    color: red;
+}
+
+#impar_header {
+    position: relative;
+    bottom: 606px;
+    left: 170px;
+}
+
+.png_header {
+    position: relative;
+    background-color: white;
+    margin-left: 110px;
+}
+
+h2 {
+    font-family: 'Fira Sans', sans-serif;
+    bottom: 65px;
+    left: 120px;
+    position: relative;
+    font-size: 25px;
+    color: white;
+}
+
+#principaisClientes {
+    position: relative;
+    margin-left: 100px;
+    top: -63px;
+    color: white;
+    z-index: 5;
+}
+
+hr { 
+    border: 1px solid #ccc; /* Cor da linha e espessura */
+    margin: -50px 0; /* Espaçamento acima e abaixo da linha */
+}
+
+#montamosProjetamos {
+    position: relative;
+    margin-left: 500px;
+    color: rgb(87, 76, 76);
+    top: 0px;
+    font-size: 22px;
+}
+
+#img_aqui {
+    margin-top: -70px;
+    position: relative;
+    margin-left: 45px;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+#texto {
+    font-size: 22px;
+    color:rgb(87, 76, 76);
+    position: relative;
+    top: 15px;
+}
+
+.rodape {
+    top: 60px;
+    position: relative;
+    width: 100%;
+}
+
+.imagem {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+#videoShell {
+    position: absolute;
+    top: -115px;
+    left: 45px;
+    width: 15%;
+    height: 90%;
+    z-index: 2;
+}
+
+#nossos_projetos {
+    color: white;
+    position: relative;
+    bottom: 830px;
+    left: 400px;
+    font-size: 30px;
+
+}
+
+#libertadores {
+    position: absolute;
+    top: -115px;
+    left: 600px;
+    width: 15%;
+    height: 90%;
+    z-index: 2;
+}
+
+#treinamento {
+    position: absolute;
+    top: -115px;
+    left: 1100px;
+    width: 15%;
+    height: 90%;
+    z-index: 2;
+}
+
+.meu-video {
+    z-index: 1;
+}
+
+.hamburger{
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    z-index: 5;
+    right: 0.5rem;
+    top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.show-menu .hamburger{
+    right: 16rem;
+
+}
+
+.line{
+    width: 100%;
+    height: .2rem;
+    padding: 1px;
+    border-radius: 10px;
+    background-color:red;
+    box-shadow: 0.1rem 0.1rem 2px rgba(0, 0, 0, 0.788);
+    transition: transform .7s;
+}
+
+.show-menu #line1{
+    transform: rotate(45deg) translate(.4rem, .9rem);
+    background-color: white;
+    box-shadow: none;
+}
+
+.show-menu #line2{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.show-menu #line3{
+    transform: rotate(-45deg) translate(.3rem, -.9rem);
+    background-color:white;
+    box-shadow: none;
+}
+
+.sidebar{
+    width: 20rem;
+    height: 45vh;
+    background: red;
+    box-shadow: 10px 5px 15px 10px rgba(0, 0, 0, 0.582);
+    position: fixed;
+    top: 0;
+    right: -20rem;
+    transition: all .8s;
+    z-index: 2;
+}
+
+.show-menu .sidebar{
+    right: 0;
+}
+
+.menu{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.5;
+}
+
+.menu-item{
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.menu-link{
+    font-family:sans-serif;
+    font-size: 13px;
+    color: rgb(245, 245, 245);
+    transition: color .7s;
+    text-decoration: none;
+}
+
+.menu-link:hover{
+    color: rgb(0, 0, 0);
+    transition: color .7s;
+}
+
+.icon {
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    font-size: 30px;
+    background-color: #01e675;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 3px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 100;
+    box-shadow: 2px 2px 2px #c0bdbd;
+  }
+  
+.icon .fab{
+    padding-top: 9px;
+  }
+  
+.icon:hover{
+    background-color: #fff;
+    color: #029e3b;
+    font-weight: 900;
+    box-shadow: 2px 2px 20px #5fe690;
+  }
