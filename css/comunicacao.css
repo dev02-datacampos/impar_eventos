@@ -19,7 +19,7 @@ h4 {
 
 #impar_header {
     position: relative;
-    bottom: 3094px;
+    bottom: 2221px;
     left: 170px;
 }
 
@@ -171,6 +171,7 @@ hr {
 }
 
 #red_logo {
+    position: absolute;
     z-index: 0;
 }
 
@@ -206,6 +207,6 @@ hr {
     font-family: 'Open Sans', sans-serif;
     color: white;
     font-size: 16px;
-    left: 300px;
-    bottom: 290px;
+    left: 310px;
+    bottom: -575px;
 }

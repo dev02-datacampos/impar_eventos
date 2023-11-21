@@ -197,6 +197,7 @@ h4 {
 }
 
 .imagem {
+    position: absolute;
     width: 100%;
     height: auto;
     z-index: 1;
@@ -204,17 +205,18 @@ h4 {
 
 #videoShell {
     position: absolute;
-    top: -115px;
+    top: -30px;
     left: 45px;
     width: 15%;
-    height: 90%;
+    height: 90ex;
     z-index: 2;
 }
 
 #nossos_projetos {
+    z-index: 11;
     color: white;
     position: relative;
-    bottom: 830px;
+    bottom: -30px;
     left: 400px;
     font-size: 30px;
 
@@ -222,19 +224,19 @@ h4 {
 
 #libertadores {
     position: absolute;
-    top: -115px;
+    top: -30px;
     left: 600px;
     width: 15%;
-    height: 90%;
+    height: 90ex;
     z-index: 2;
 }
 
 #treinamento {
     position: absolute;
-    top: -115px;
+    top: -30px;
     left: 1100px;
     width: 15%;
-    height: 90%;
+    height: 90ex;
     z-index: 2;
 }
 

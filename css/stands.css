@@ -27,10 +27,11 @@ h2 {
 }
 
 #impar_header {
-    bottom: 1715px;
     position: relative;
+    bottom: 873px;
     left: 170px;
 }
+
 
 #img_aqui {
     position: relative;
@@ -47,9 +48,15 @@ h2 {
 }
 
 .impar_body {
-    position: relative;
+    position: absolute;
     bottom: -100px;
 }
+
+#red_logo {
+    position: absolute;
+    z-index: 0;
+}
+
 
 hr { 
     border: 1px solid #ccc; /* Cor da linha e espessura */
@@ -76,8 +83,8 @@ hr {
     font-family: 'Open Sans', sans-serif;
     color: white;
     font-size: 16px;
-    left: 300px;
-    bottom: 290px;
+    left: 310px;
+    bottom: -550px;
 }
 
 .hamburger{
