@@ -8,12 +8,6 @@ html, body {
     padding: 0;
 }
 
-body {
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-}
-
 h4 {
     font-family: 'Fira Sans', sans-serif;
     bottom: 25px;
@@ -23,28 +17,41 @@ h4 {
     color: red;
 }
 
-.texto {
-    font-size: 30px;
-    font-family: 'Fira Sans', sans-serif;
+#central {
+    color: rgb(87, 76, 76);
+    font-size: 40px;
     position: relative;
-    bottom: 1050px;
-    left: 110px;
+    left: 475px;
+}
+
+#img_central {
+    width: 310px;
+    margin-top: -60px;
+    position: absolute;
+    left: 550px;
+}
+
+#aqui {
+    position: relative;
+    left: 400px;
+    font-size: 17px;
+    z-index: 2;
     color: white;
 }
 
-.titulo_page {
-    font-size: 30px;
-    font-family: 'Fira Sans', sans-serif;
+#img_aqui {
+    width: 700px;
+    margin-top: 260px;
     position: relative;
-    bottom: 980px;
-    left: 50px;
-    color: white;
+    margin-left: 390px;
+    z-index: 1;
+    border-radius: 10px;
 }
 
 #impar_header {
     position: relative;
-    bottom: 438px;
-    left: 60px;
+    bottom: 606px;
+    left: 170px;
 }
 
 .png_header {
@@ -53,9 +60,89 @@ h4 {
     margin-left: 110px;
 }
 
-#body_img {
-    width: 100vw;
-} 
+h2 {
+    font-family: 'Fira Sans', sans-serif;
+    bottom: 65px;
+    left: 120px;
+    position: relative;
+    font-size: 25px;
+    color: white;
+}
+
+#principaisClientes {
+    position: relative;
+    margin-left: 100px;
+    top: -63px;
+    color: white;
+    z-index: 5;
+}
+
+#montamosProjetamos {
+    position: relative;
+    margin-left: 500px;
+    color: rgb(87, 76, 76);
+    top: 0px;
+    font-size: 22px;
+}
+
+#texto {
+    font-size: 22px;
+    color:rgb(87, 76, 76);
+    position: relative;
+    top: 15px;
+}
+
+.rodape {
+    top: 95px;
+    position: relative;
+    width: 100%;
+}
+
+.imagem {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+#videoShell {
+    position: absolute;
+    top: -115px;
+    left: 45px;
+    width: 15%;
+    height: 90%;
+    z-index: 2;
+}
+
+#nossos_projetos {
+    color: white;
+    position: relative;
+    bottom: 830px;
+    left: 400px;
+    font-size: 30px;
+
+}
+
+#libertadores {
+    position: absolute;
+    top: -115px;
+    left: 600px;
+    width: 15%;
+    height: 90%;
+    z-index: 2;
+}
+
+#treinamento {
+    position: absolute;
+    top: -115px;
+    left: 1100px;
+    width: 15%;
+    height: 90%;
+    z-index: 1;
+}
+
+.meu-video {
+    z-index: 1;
+}
 
 .hamburger{
     width: 2rem;
@@ -81,7 +168,7 @@ h4 {
     padding: 1px;
     border-radius: 10px;
     background-color:red;
-    box-shadow: 0.1rem 0.1rem 3px rgba(0, 0, 0, 0.788);
+    box-shadow: 0.1rem 0.1rem 2px rgba(0, 0, 0, 0.788);
     transition: transform .7s;
 }
 
@@ -144,104 +231,6 @@ h4 {
     transition: color .7s;
 }
 
-#feira_img {
-    position: relative;
-    width: 300px;
-    bottom: 160px;
-    left: 175px;
-}
-
-#limpeza_img {
-    position: relative;
-    width: 300px;
-    bottom: 160px;
-    left: 220px;
-}
-
-#display_img { 
-    position: relative;
-    width: 300px;
-    bottom: 160px;
-    left: 260px;
-}
-
-#contato {
-    font-family: 'Fira Sans', sans-serif;
-    top: 800px;
-    margin-left: 250px;
-    position: relative;
-    font-size: 35px;
-    color: red;
-}
-
-#numero {
-    font-family: 'Fira Sans', sans-serif;
-    top: 775px;
-    margin-left: 500px;
-    position: relative;
-    font-size: 23px;
-    color: rgb(102, 101, 101);
-}
-
-#reuniao_img {
-    position: relative;
-    width: 400px;
-    top: 400px;
-    right: 400px;
-}
-
-.rodape {
-    position: relative;
-    bottom: 160px;
-    width: 100%;
-}
-
-.imagem {
-    width: 100%;
-    height: auto;
-    z-index: 1;
-}
-
-#videoShell {
-    position: absolute;
-    top: -115px;
-    left: 45px;
-    width: 15%;
-    height: 90%;
-    z-index: 2;
-}
-
-#nossos_projetos {
-    color: white;
-    position: relative;
-    bottom: 830px;
-    left: 400px;
-    font-size: 30px;
-
-}
-
-#libertadores {
-    position: absolute;
-    top: -115px;
-    left: 600px;
-    width: 15%;
-    height: 90%;
-    z-index: 2;
-}
-
-#treinamento {
-    position: absolute;
-    top: -115px;
-    left: 1100px;
-    width: 15%;
-    height: 90%;
-    z-index: 2;
-}
-
-.meu-video {
-    z-index: 1;
-}
-
 .icon {
     position: fixed;
     bottom: 60px;
@@ -269,4 +258,18 @@ h4 {
     font-weight: 900;
     box-shadow: 2px 2px 20px #5fe690;
   }
-  
+
+#placas_comunicacao {
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 160px;
+    left: 425px;
+    position: relative;
+    font-size: 35px;
+    color: rgb(87, 76, 76);
+    z-index: 2;
+}
+
+hr { 
+    border: 1px solid #ccc; /* Cor da linha e espessura */
+    margin: -80px 0; /* Espaçamento acima e abaixo da linha */
+}
