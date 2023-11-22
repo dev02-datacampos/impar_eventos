@@ -28,7 +28,7 @@ h2 {
 
 #impar_header {
     position: relative;
-    bottom: 873px;
+    bottom: 1001px;
     left: 170px;
 }
 
@@ -64,12 +64,16 @@ hr {
 }
 
 #montamosProjetamos {
-    color: rgb(87, 76, 76);
-    top: 0px;
-    font-size: 22px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 100px;
 }
 
 #principaisClientes {
+    position: relative;
+    margin-left: 80px;
     top: -10px;
     color: white;
     z-index: 5;
