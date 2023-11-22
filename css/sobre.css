@@ -68,10 +68,16 @@ hr {
 }
 
 #texto {
-    font-size: 22px;
-    color:rgb(87, 76, 76);
-    position: relative;
-    top: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 100px;
+}
+
+#venha {
+    margin-left: 470px;
+    bottom: -5px;
 }
 
 .rodape {
@@ -88,10 +94,10 @@ hr {
 
 #videoShell {
     position: absolute;
-    top: -115px;
-    left: 45px;
+    top: -30px;
+    left: 200px;
     width: 15%;
-    height: 90%;
+    height: 90ex;
     z-index: 2;
 }
 
@@ -106,19 +112,19 @@ hr {
 
 #libertadores {
     position: absolute;
-    top: -115px;
+    top: -30px;
     left: 600px;
     width: 15%;
-    height: 90%;
+    height: 90ex;
     z-index: 2;
 }
 
 #treinamento {
     position: absolute;
-    top: -115px;
-    left: 1100px;
+    top: -30px;
+    left: 1000px;
     width: 15%;
-    height: 90%;
+    height: 90ex;
     z-index: 2;
 }
 

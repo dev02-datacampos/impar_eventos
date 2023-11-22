@@ -206,7 +206,7 @@ h4 {
 #videoShell {
     position: absolute;
     top: -30px;
-    left: 45px;
+    left: 200px;
     width: 15%;
     height: 90ex;
     z-index: 2;
@@ -234,7 +234,7 @@ h4 {
 #treinamento {
     position: absolute;
     top: -30px;
-    left: 1100px;
+    left: 1000px;
     width: 15%;
     height: 90ex;
     z-index: 2;

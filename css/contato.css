@@ -106,10 +106,10 @@ h2 {
 
 #videoShell {
     position: absolute;
-    top: -115px;
-    left: 45px;
+    top: -30px;
+    left: 200px;
     width: 15%;
-    height: 90%;
+    height: 90ex;
     z-index: 2;
 }
 
@@ -124,19 +124,19 @@ h2 {
 
 #libertadores {
     position: absolute;
-    top: -115px;
+    top: -30px;
     left: 600px;
     width: 15%;
-    height: 90%;
+    height: 90ex;
     z-index: 2;
 }
 
 #treinamento {
     position: absolute;
-    top: -115px;
-    left: 1100px;
+    top: -30px;
+    left: 1000px;
     width: 15%;
-    height: 90%;
+    height: 90ex;
     z-index: 1;
 }
 
