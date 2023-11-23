@@ -21,19 +21,29 @@ h4 {
     color: rgb(87, 76, 76);
     font-size: 40px;
     position: relative;
-    left: 475px;
+    left: 430px;
 }
 
 #img_central {
     width: 310px;
     margin-top: -60px;
     position: absolute;
-    left: 550px;
+    left: 510px;
+}
+
+#placas_comunicacao {
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 160px;
+    left: 355px;
+    position: relative;
+    font-size: 35px;
+    color: rgb(87, 76, 76);
+    z-index: 2;
 }
 
 #aqui {
     position: relative;
-    left: 400px;
+    left: 330px;
     font-size: 17px;
     z-index: 2;
     color: white;
@@ -43,14 +53,14 @@ h4 {
     width: 700px;
     margin-top: 260px;
     position: relative;
-    margin-left: 390px;
+    margin-left: 320px;
     z-index: 1;
     border-radius: 10px;
 }
 
 #impar_header {
     position: relative;
-    bottom: 606px;
+    bottom: 569px;
     left: 170px;
 }
 
@@ -125,7 +135,7 @@ h2 {
 #libertadores {
     position: absolute;
     top: -30px;
-    left: 600px;
+    left: 550px;
     width: 15%;
     height: 90ex;
     z-index: 2;
@@ -134,7 +144,7 @@ h2 {
 #treinamento {
     position: absolute;
     top: -30px;
-    left: 1000px;
+    left: 900px;
     width: 15%;
     height: 90ex;
     z-index: 1;
@@ -259,17 +269,98 @@ h2 {
     box-shadow: 2px 2px 20px #5fe690;
   }
 
-#placas_comunicacao {
-    font-family: 'Fira Sans', sans-serif;
-    margin-top: 160px;
-    left: 425px;
-    position: relative;
-    font-size: 35px;
-    color: rgb(87, 76, 76);
-    z-index: 2;
-}
 
 hr { 
     border: 1px solid #ccc; /* Cor da linha e espessura */
     margin: -80px 0; /* Espaçamento acima e abaixo da linha */
+}
+
+@media screen and (max-width: 768px) {
+    #body_img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .imagem {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #cabecalho {
+        margin-left: -50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #central {
+        display: flex;
+        margin-left: -150px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    #img_central {
+        display: flex;
+        margin-left: -150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #img_aqui {
+        position: relative;
+        left: -150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #aqui {
+        left: 180px;
+        position: relative;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #placas_comunicacao {
+        left: 210px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #videoShell {
+        left: 170px;
+        top: -100px;
+        margin-bottom: 50px;
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #libertadores {
+        left: 450px;
+        top: -100px;
+        margin-bottom: 50px;
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #treinamento {
+        left: 700px;
+        top: -100px;
+        margin-bottom: 50px;
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #impar_header {
+        position: relative;
+        bottom: 458px;
+        left: 120px;
+    }
 }
