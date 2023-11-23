@@ -19,7 +19,7 @@ h4 {
 
 #impar_header {
     position: relative;
-    bottom: 606px;
+    bottom: 569px;
     left: 170px;
 }
 
@@ -113,7 +113,7 @@ hr {
 #libertadores {
     position: absolute;
     top: -30px;
-    left: 600px;
+    left: 550px;
     width: 15%;
     height: 90ex;
     z-index: 2;
@@ -122,10 +122,10 @@ hr {
 #treinamento {
     position: absolute;
     top: -30px;
-    left: 1000px;
+    left: 900px;
     width: 15%;
     height: 90ex;
-    z-index: 2;
+    z-index: 1;
 }
 
 .meu-video {
@@ -246,3 +246,62 @@ hr {
     font-weight: 900;
     box-shadow: 2px 2px 20px #5fe690;
   }
+
+@media screen and (max-width: 768px) {
+    #body_img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #cabecalho {
+        margin-left: -50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #texto {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #venha {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #videoShell {
+        left: 90px;
+        top: -215px;
+        margin-bottom: 50px;
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #libertadores {
+        left: 230px;
+        top: -215px;
+        margin-bottom: 50px;
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #treinamento {
+        left: 360px;
+        top: -215px;
+        margin-bottom: 50px;
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #impar_header {
+        position: relative;
+        bottom: 284px;
+        left: 120px;
+    }
+}
