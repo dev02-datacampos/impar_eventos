@@ -95,7 +95,7 @@ hr {
     width: 2rem;
     height: 2rem;
     position: fixed;
-    z-index: 5;
+    z-index: 10;
     right: 0.5rem;
     top: 1rem;
     display: flex;
@@ -145,7 +145,7 @@ hr {
     top: 0;
     right: -20rem;
     transition: all .8s;
-    z-index: 2;
+    z-index: 5;
 }
 
 .show-menu .sidebar{
@@ -205,3 +205,51 @@ hr {
     font-weight: 900;
     box-shadow: 2px 2px 20px #5fe690;
   }
+
+@media screen and (max-width: 768px) {
+    #body_img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #cabecalho {
+        margin-left: -50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #img_aqui {
+        position: relative;
+        left: -30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #principaisClientes {
+        left: 90px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #principaisClientes {
+        left: 90px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #montamosProjetamos {
+        left: 30px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #impar_header {
+        top: -865px;
+        left: 116px;
+        position: relative;
+    }
+}

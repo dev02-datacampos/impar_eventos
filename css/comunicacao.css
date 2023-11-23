@@ -19,7 +19,7 @@ h4 {
 
 #impar_header {
     position: relative;
-    bottom: 2221px;
+    bottom: 2185px;
     left: 170px;
 }
 
@@ -149,7 +149,7 @@ hr {
 
 #servicos {
     margin-left: 115px;
-    display: inline-block;
+    display: inline;
     width: 300px;
 }
 
@@ -248,7 +248,7 @@ hr {
 @media screen and (max-width: 768px) {
     #impar_header {
         position: relative;
-        bottom: 4350px;
+        bottom: 4360px;
         left: 120px;
     }
 }
