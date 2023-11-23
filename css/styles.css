@@ -54,6 +54,7 @@ h4 {
 }
 
 #body_img {
+    height: 500px; 
     width: 100vw;
 } 
 
@@ -271,3 +272,102 @@ h4 {
     font-weight: 900;
     box-shadow: 2px 2px 20px #5fe690;
   }
+
+@media screen and (max-width: 768px) {
+    #body_img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .texto {
+        font-size: 25px;
+        margin-left: -50px;
+        bottom: 2700px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #logo {
+        margin-left: -50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #feira_img {
+        top: -125px;
+        left: 55px;
+        margin-bottom: 50px;
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #limpeza_img {
+        top: -125px;
+        left: 55px;
+        margin-bottom: 50px;
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #display_img {
+        top: -125px;
+        left: 55px;
+        margin-bottom: 50px;
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #contato {
+        font-size: 30px;
+        top: 450px;
+        left: -170px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #reuniao_img {
+        top: 100px;
+        left: 55px;
+        margin-bottom: 50px;
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .imagem {
+        top: -400px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #videoShell {
+        left: 70px;
+        top: -600px;
+        margin-bottom: 50px;
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #libertadores {
+        left: 250px;
+        top: -600px;
+        margin-bottom: 50px;
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #treinamento {
+        left: 425px;
+        top: -600px;
+        margin-bottom: 50px;
+        width: 15%;
+    }
+}
