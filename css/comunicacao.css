@@ -140,7 +140,7 @@ hr {
 #placas_comunicacao {
     font-family: 'Fira Sans', sans-serif;
     margin-top: 20px;
-    left: 300px;
+    left: 250px;
     position: relative;
     font-size: 20px;
     color: rgb(87, 76, 76);
@@ -203,10 +203,52 @@ hr {
     box-shadow: 2px 2px 20px #5fe690;
   }
 
-  #solicite {
+#solicite {
     font-family: 'Open Sans', sans-serif;
     color: white;
     font-size: 16px;
     left: 365px;
     bottom: -575px;
+}
+
+@media screen and (max-width: 768px) {
+    #body_img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #cabecalho {
+        margin-left: -50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #aqui {
+        left: 23px;
+        position: relative;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #img_aqui {
+        position: relative;
+        left: -30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #placas_comunicacao {
+        left: 0px;
+        font-size: 13x;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #impar_header {
+        position: relative;
+        bottom: 4350px;
+        left: 120px;
+    }
 }

@@ -283,13 +283,21 @@ h4 {
     .texto {
         font-size: 25px;
         margin-left: -50px;
-        bottom: 2700px;
+        bottom: 2800px;
     }
 }
 
 @media screen and (max-width: 768px) {
     #logo {
         margin-left: -50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #impar_header {
+        position: relative;
+        bottom: 400px;
+        left: 60px;
     }
 }
 
@@ -323,14 +331,14 @@ h4 {
 @media screen and (max-width: 768px) {
     #contato {
         font-size: 30px;
-        top: 450px;
+        top: 315px;
         left: -170px;
     }
 }
 
 @media screen and (max-width: 768px) {
     #reuniao_img {
-        top: 100px;
+        top: 20px;
         left: 55px;
         margin-bottom: 50px;
         width: 450px;
