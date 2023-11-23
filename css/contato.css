@@ -21,20 +21,20 @@ h4 {
     color: rgb(87, 76, 76);
     font-size: 40px;
     position: relative;
-    left: 430px;
+    left: 470px;
 }
 
 #img_central {
     width: 310px;
     margin-top: -60px;
     position: absolute;
-    left: 510px;
+    left: 560px;
 }
 
 #placas_comunicacao {
     font-family: 'Fira Sans', sans-serif;
     margin-top: 160px;
-    left: 355px;
+    left: 385px;
     position: relative;
     font-size: 35px;
     color: rgb(87, 76, 76);
@@ -43,7 +43,7 @@ h4 {
 
 #aqui {
     position: relative;
-    left: 330px;
+    left: 370px;
     font-size: 17px;
     z-index: 2;
     color: white;
@@ -53,7 +53,7 @@ h4 {
     width: 700px;
     margin-top: 260px;
     position: relative;
-    margin-left: 320px;
+    margin-left: 360px;
     z-index: 1;
     border-radius: 10px;
 }
@@ -117,7 +117,7 @@ h2 {
 #videoShell {
     position: absolute;
     top: -30px;
-    left: 200px;
+    left: 210px;
     width: 15%;
     height: 90ex;
     z-index: 2;
@@ -135,7 +135,7 @@ h2 {
 #libertadores {
     position: absolute;
     top: -30px;
-    left: 550px;
+    left: 600px;
     width: 15%;
     height: 90ex;
     z-index: 2;
@@ -144,7 +144,7 @@ h2 {
 #treinamento {
     position: absolute;
     top: -30px;
-    left: 900px;
+    left: 980px;
     width: 15%;
     height: 90ex;
     z-index: 1;

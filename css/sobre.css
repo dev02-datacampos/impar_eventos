@@ -43,7 +43,7 @@ h2 {
     margin-left: 100px;
     top: -63px;
     color: white;
-    z-index: 5;
+    z-index: 2;
 }
 
 hr { 
@@ -113,7 +113,7 @@ hr {
 #libertadores {
     position: absolute;
     top: -30px;
-    left: 550px;
+    left: 580px;
     width: 15%;
     height: 90ex;
     z-index: 2;
@@ -122,7 +122,7 @@ hr {
 #treinamento {
     position: absolute;
     top: -30px;
-    left: 900px;
+    left: 980px;
     width: 15%;
     height: 90ex;
     z-index: 1;
