@@ -156,11 +156,12 @@ hr {
     padding: 1px;
     border-radius: 10px;
     background-color:red;
-    box-shadow: 0.1rem 0.1rem 2px rgba(0, 0, 0, 0.788);
+    box-shadow: 0.1rem 0.1rem 3px rgba(0, 0, 0, 0.788);
     transition: transform .7s;
 }
 
 .show-menu #line1{
+    margin-left: 250px;
     transform: rotate(45deg) translate(.4rem, .9rem);
     background-color: white;
     box-shadow: none;
@@ -172,6 +173,7 @@ hr {
 }
 
 .show-menu #line3{
+    margin-left: 250px;
     transform: rotate(-45deg) translate(.3rem, -.9rem);
     background-color:white;
     box-shadow: none;
@@ -202,13 +204,17 @@ hr {
 }
 
 .menu-item{
-    text-align: center;
+    text-align: start;
     margin-bottom: .5rem;
+}
+
+.menu {
+    right: -120px;
 }
 
 .menu-link{
     font-family:sans-serif;
-    font-size: 13px;
+    font-size: 17px;
     color: rgb(245, 245, 245);
     transition: color .7s;
     text-decoration: none;
